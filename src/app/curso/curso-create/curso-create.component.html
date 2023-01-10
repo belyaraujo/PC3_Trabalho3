@@ -1,0 +1,16 @@
+<form (ngSubmit)="save()">
+  <div>
+    <label for="nome" class="col-sm-2 col-form-label col-form-label-md">Sigla</label>
+    <input class="form-control" id="nome" name="nome" [(ngModel)]="nome" type="text" />
+  </div>
+  <br>
+  <div>
+    <label for="cargaHoraria" class="col-sm-3 col-form-label col-form-label-md">Descrição</label>
+    <input class="form-control" id="cargaHoraria" name="cargaHoraria" type="number" [(ngModel)]="cargaHoraria" />
+  </div>
+  <br>
+  <br>
+  <button class="btn btn-success">Salvar</button>
+
+
+</form>

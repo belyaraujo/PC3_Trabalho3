@@ -1,0 +1,92 @@
+<nav class="navbar bg-light">
+    <div class="container-fluid" style="background-color:#868888">
+        <span class="navbar-brand mb-0 h1">Cadastro de Veículos e Marcas</span>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header" style="background-color: #f4b4b4;">
+            Marcas
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Sigla</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">#</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><button type="button" class="btn btn-primary">Ver</button>
+                            <button type="button" class="btn btn-warning">Editar</button>
+                            <button type="button" class="btn btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-header" style="background-color: #8bb1ee;">
+            Veículos
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Placa</th>
+                        <th scope="col">Cor</th>
+                        <th scope="col">Ano modelo</th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">#</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>.</td>
+                        <td></td>
+                        <td><button type="button" class="btn btn-primary">Ver</button>
+                            <button type="button" class="btn btn-warning">Editar</button>
+                            <button type="button" class="btn btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end ">
+        <div class="card w-50 " style="margin: 0 15px;">
+            <div class=" card-body">
+                <h5 class="card-title">Cadastrar Marca</h5>
+                <p class="card-text"><gc-curso-create></gc-curso-create></p>
+
+            </div>
+        </div>
+
+        <div class="card w-50 ">
+            <div class="card-body">
+                <h5 class="card-title">Cadastrar Veículo</h5>
+                <p class="card-text"><gc-veiculo-create></gc-veiculo-create></p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
